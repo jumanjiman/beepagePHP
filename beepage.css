@@ -1,0 +1,153 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;;
+	font-size: 100.01%;
+	background-color: #3A6EA5;
+	height: 100%;
+	width: 100%;
+}
+
+p, ul, li {
+    font-size: 100%;
+    }
+	 
+h1 {
+    font-size: 220%;
+    color: #3D3D3D;
+    }
+
+h2 {
+    font-size: 150%;
+    color: #3D3D3D;
+    }
+
+h3 {
+    font-size: 120%;
+    color: #3D3D3D;
+    }
+
+#head {
+    background-color: #F2C055;
+    padding: 10px;
+    text-align: right;
+    border-bottom: 2px solid #333333;
+    font-size: 250%;
+    }
+	 
+.navigation {
+    background-color: #3A6EA5;
+    width: 200px;
+    -width: 190px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    float: left;
+    clear: left
+    }
+
+.navigation ul {
+    margin: 0px; /* das ist für den IE */
+    padding: 0px;  /* das ist für alle anderen Browser */
+    }
+
+.navigation ul li{
+	list-style-type: none;
+    }
+
+.navigation li a {
+    color: #FCC45B;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    line-height: 18px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    -width: 100%; /* das braucht der IE, damit nicht nur der Link sensitiv ist. */
+    }
+
+.navigation a:hover {
+    background-color: #dcdcdc;
+    color: #3D3D3D;
+    }
+
+.navigation #version li {
+   color: #f5f5f5;
+   text-align: center;
+   text-decoration: none;
+   padding-top: 10px;
+   padding-left: 0px;
+   font-size: 80%;
+   }
+
+.donate {
+   margin: auto;
+   padding: 10px;
+   text-align: center;
+   }   
+   
+#content {
+    background-color: white;
+    line-height: 20px;
+    margin: 0px 0px 0px 200px;
+    padding: 10px 10px 10px 10px;
+    }
+
+#content p {
+    padding-left: 1ex;
+    padding-right: 1ex;
+    padding-bottom: 2ex;
+    max-width: 600px;
+    }
+
+#content a {
+    text-decoration: underline;
+    }
+
+#content a:hover {
+    text-decoration: none;
+    }
+
+#footer {
+    font-size: 80%;
+    padding: 5px;
+    clear: left;
+    color: white;
+    font-weight: bold;
+    }
+
+#footer div {
+    text-align: right;
+    line-height: 24px;
+    }
+
+#footer img {
+    padding: 4px;
+    }
+    
+#footer a {
+    text-decoration: underline;
+    color: #FCC45B;
+    }
+
+#footer a:hover {
+    text-decoration: none;
+    }
+    
+p.references {
+    display: inline;
+    font-weight: bold;
+    }
+
+ul.references {
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
+	 list-style-type: square;
+    }
+
+div.impressum {
+    margin: auto;
+    padding: 4px;
+    background-color: #d3d3d3;
+    border: 1px solid #000000;
+    width: 400px;
+    }

@@ -1,0 +1,3 @@
+AuthType Basic
+AuthName "beepage admin"
+require user bill paul nick dain clint
